@@ -11,7 +11,11 @@
         />
       </div>
       <div class="zipcode-submit">
-        <input type="submit" placeholder="Soumettre" @click="setCity">
+        <input 
+          type="button" 
+          value="Soumettre" 
+          @click="setCity"
+        />
       </div>
     </form>
   </div>
