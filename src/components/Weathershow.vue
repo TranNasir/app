@@ -16,7 +16,6 @@ export default {
   },
   mounted() {
     this.city = localStorage.getItem('weatherZipcode');
-    console.log(this.city);
   },
   methods: {
   }
